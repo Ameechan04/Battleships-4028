@@ -166,7 +166,7 @@ int get_ship_count() {
 	    
 	    if (player == 2) {
 	        System.out.print("\nBOT TURN! \n");
-	        target_row = (int)(Math.random() * 8 + 1);
+	        target_row = (int)(Math.random() * 8 + 0);
 	        //target_column = 10;
 	        target_column = (int)(Math.random() * 9) + 2;
 	        if (shoot(target_row, target_column, board.get_array())) {
@@ -338,7 +338,7 @@ int get_ship_count() {
 			System.out.println("Round: " + round_counter);
 			if (player == 1) {
 	        System.out.print("\nBOT 1'S TURN! \n");
-	        target_row = (int)(Math.random() * 8 + 1);
+	        target_row = (int)(Math.random() * 8 + 0);
 	        //target_column = 10;
 	        target_column = (int)(Math.random() * 9) + 2;
 	        if (shoot(target_row, target_column, bot_board.get_array())) {
@@ -355,7 +355,7 @@ int get_ship_count() {
 		    
 		    if (player == 2) {
 		        System.out.print("\nBOT 2'S TURN! \n");
-		        target_row = (int)(Math.random() * 8 + 1);
+		        target_row = (int)(Math.random() * 8 + 0);
 		        //target_column = 10;
 		        target_column = (int)(Math.random() * 9) + 2;
 		        if (shoot(target_row, target_column, board.get_array())) {
